@@ -1,0 +1,5 @@
+<view class="layout">
+  <view style="color:#fff;text-align:center;line-height:82rpx;width:280rpx;background:blue;margin-top:60rpx" wx:for="{{list}}" wx:key="index">
+      {{item.classify}}
+  </view>
+</view>
