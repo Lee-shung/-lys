@@ -1,0 +1,42 @@
+/**index.wxss**/
+.container {
+  padding: 0 8px;
+}
+.flex-wrp {
+  display: flex;
+}
+.item {
+  padding: 20px 0;
+  border-top: 1px solid #cccccc;
+}
+.pic {
+  width: 136px;
+  height: 180px;
+}
+.info {
+  margin-left: 16px;
+}
+.cate {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 5px;
+}
+.business {
+  border: 1px solid green;
+  padding: 2px 4px;
+  display: inline-block;
+  font-size: 14px;
+  color: green;
+}
+.author {
+  font-size: 14px;
+}
+.down {
+  color: #666;
+}

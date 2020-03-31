@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="flex-wrp item" style="flex-direction:row;" wx:for='{{books}}' wx:key='{{index}}'>
+      <view class="flex-item">
+        <image class="pic" src="{{item.img}}"></image>
+      </view>
+      <view class="flex-item info">
+        <text class="name">{{item.name}}</text>
+        <view class="author">{{item.author}}</view>
+        <view class="cate">{{item.cate}}</view>
+        <view class="price">￥{{item.price}}</view>
+        <text class="business">{{item.business}}</text>
+        <view class="down" wx:if='{{item.isDownload}}'>现在可以下载。</view>
+      </view>
+    </view>
+</view>
