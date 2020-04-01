@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<view bindtap="detail" data-id="{{item.id}}" class="hospital" wx:for="{{hospitalList}}" wx:key="index">
+  <image style="width: 200rpx;height: 140rpx;dispaly:inline-block" mode="scaleToFill" src="{{item.img}}"></image>
+  <view style="dispaly:inline-block;width:500rpx;padding-left:20rpx">
+    <view class="name">{{item.hosName}}</view>
+    <text class="address">地址 : {{item.addr}}</text>
+  </view>
+</view>
+

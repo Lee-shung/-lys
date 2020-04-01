@@ -1,0 +1,14 @@
+.hospital {
+  display: flex;
+  padding-left: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+.name {
+  font-size: 36rpx;
+  line-height: 50rpx;
+}
+.address {
+  font-size: 24rpx;
+  line-height: 80rpx;
+}

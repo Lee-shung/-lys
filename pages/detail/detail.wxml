@@ -1,0 +1,7 @@
+<view style="padding:100rpx 64rpx;text-align:center">
+  <image src="{{hospital.img}}" style="width:100%;display:block" mode="aspectFit">{{hospital.img}}</image>
+  <view style="font-size:54rpx;padding-top:80rpx">{{hospital.hosName}}</view>
+  <view style="margin-top:50rpx;font-size:28rpx;text-align:left">
+    {{hospital.info}}
+  </view>
+</view>
